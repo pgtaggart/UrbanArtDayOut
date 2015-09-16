@@ -1,0 +1,17 @@
+2015-08-31 18:28:02.455 UrbanArtDayOut[1262:16106] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/51F2233A-034A-4690-AF56-6445DE271E08/data/Containers/Data/Application/A0B321BA-F1E9-4A8F-8429-92D231252A45/Library/Cookies/Cookies.binarycookies
+2015-08-31 18:28:02.636 UrbanArtDayOut[1262:16106] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-31 18:28:02.636 UrbanArtDayOut[1262:16106] Multi-tasking -> Device: YES, App: YES
+2015-08-31 18:28:02.646 UrbanArtDayOut[1262:16106] Unlimited access to network resources
+2015-08-31 18:28:02.979 UrbanArtDayOut[1262:16106] [CDVTimer][statusbar] 79.904974ms
+2015-08-31 18:28:02.980 UrbanArtDayOut[1262:16106] [CDVTimer][TotalPluginStartup] 80.286980ms
+2015-08-31 18:28:03.204 UrbanArtDayOut[1262:16106] Resetting plugins due to page load.
+2015-08-31 18:28:03.423 UrbanArtDayOut[1262:16106] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/51F2233A-034A-4690-AF56-6445DE271E08/data/Containers/Bundle/Application/8A5634C6-B9FC-4AF9-AC2F-B63DFE29FF3C/UrbanArtDayOut.app/www/index.html
+2015-08-31 18:28:18.563 UrbanArtDayOut[1262:16505] Terminating since there is no system app.
+2015-09-16 13:54:52.888 UrbanArtDayOut[11670:667068] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/51F2233A-034A-4690-AF56-6445DE271E08/data/Containers/Data/Application/E9C6B723-7EE9-44AF-A087-ACDDE9127B3D/Library/Cookies/Cookies.binarycookies
+2015-09-16 13:54:53.119 UrbanArtDayOut[11670:667068] Apache Cordova native platform version 3.8.0 is starting.
+2015-09-16 13:54:53.120 UrbanArtDayOut[11670:667068] Multi-tasking -> Device: YES, App: YES
+2015-09-16 13:54:53.133 UrbanArtDayOut[11670:667068] Unlimited access to network resources
+2015-09-16 13:54:53.505 UrbanArtDayOut[11670:667068] [CDVTimer][statusbar] 94.350040ms
+2015-09-16 13:54:53.505 UrbanArtDayOut[11670:667068] [CDVTimer][TotalPluginStartup] 94.762027ms
+2015-09-16 13:54:53.620 UrbanArtDayOut[11670:667068] Resetting plugins due to page load.
+2015-09-16 13:54:53.879 UrbanArtDayOut[11670:667068] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/51F2233A-034A-4690-AF56-6445DE271E08/data/Containers/Bundle/Application/F4869DBC-BFFA-4A77-ADC2-E70E57FB1F7B/UrbanArtDayOut.app/www/index.html
