@@ -41,34 +41,29 @@
   var container = $("#mainslider ul");
 
   firstChild.appendTo(container);
-  //lastChild.prependTo(container);
 
   //initialise drag interface
   new Dragend($("#mainslider").get(0), {
 
-    //jumpToPage: 2,
-
     onSwipeEnd: function() {
 
-      //var first = this.pages[0];
-
       var last = this.pages[this.pages.length - 1];
-
-      //if (first === this.activeElement) {
-      //  this.jumpToPage(this.pages.length - 1);
-      //}
 
       if (last === this.activeElement) {
         this.jumpToPage(1);
       }
 
+      //get which page is active
       var pageName = $(this.activeElement).attr("name");
 
+      //turn off the modal if it's not a page that shou;ld have one
       if (pageName == "welcomePage" || pageName == "galleries" || pageName == "Contributors") {
         $("#InfoModal").removeClass("active");
       } else {
         document.getElementById("modal-content").innerHTML = service.getInfo(pageName);
       }
+
+      //now we have to figure out the info button
 
 
     },

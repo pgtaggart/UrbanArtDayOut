@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <link href="assets/css/photoswipe.css" rel="stylesheet">
   <link href="assets/css/default-skin.css" rel="stylesheet">
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <link href="assets/css/ratchet.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/css/styles.css" rel="stylesheet">
+
 </head>
 
 <body>
 
   <script id="home-template" type="text/template">
+
     <div id="mainslider">
       <ul>
         <li class="dragend-page" name="welcomePage" style="background-image: url('assets/pictures/Welcome.jpg');"></li>
@@ -23,25 +25,30 @@
 
             <div class="container-fluid">
 
+              <!--Buttons row-->
               <div class="row">
 
                 <div class="col-xs-4">
                   <div class="ImageButton" data-id="{{id}}">
-                    <img src="assets/pictures/buttons/images.png" alt="{{location}} images" class="thumbnail"></img>
+                    <i class="fa fa-info-circle fa-2x thumbnail"></i>
+                    <!--<i class="fa fa-photo fa-2x thumbnail"></i>
+                    <img src="assets/pictures/buttons/images.png" alt="{{location}} images" class="thumbnail"></img>-->
                   </div>
                 </div>
 
                 <div class="col-xs-4">
                   <div class="MapsButton">
                     <a href="maps://?q={{latitude}},{{longitude}}">
-                      <img src="assets/pictures/buttons/location.png" alt="{{location}} location" class="thumbnail" style="margin-left: 1em;"></img>
+                      <i class="fa fa-map-pin fa-2x thumbnail"></i>
+                      <!--<img src="assets/pictures/buttons/location.png" alt="{{location}} location" class="thumbnail" style="margin-left: 1em;"></img>-->
                     </a>
                   </div>
                 </div>
 
                 <div class="col-xs-4">
                   <div class="ModalButton">
-                    <img src="assets/pictures/buttons/info.png" alt="{{location}} info" class="thumbnail"></img>
+                    <i class="fa fa-info-circle fa-2x thumbnail"></i>
+                    <!--<img src="assets/pictures/buttons/info.png" alt="{{location}} info" class="thumbnail"></img>-->
                   </div>
                 </div>
 
@@ -177,9 +184,9 @@
     </div>
   </div>
 
-  <div id="InfoModal" class="modal">
+  <div id="InfoModal" class="bodal">
     <div class="content">
-      <button class="ModalButton icon icon-close pull-right"></button>
+      <button class="ModalButton fa fa-close pull-right"></button>
       <p id="modal-content" class="modal-text" style="z-index: -1;"></p>
     </div>
   </div>
