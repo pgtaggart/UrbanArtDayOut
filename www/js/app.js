@@ -25,7 +25,7 @@
   document.addEventListener('deviceready', function() {
 
     StatusBar.overlaysWebView(false);
-    StatusBar.backgroundColorByHexString('#a3c0d0');
+    StatusBar.backgroundColorByHexString('#a3c0d0');//XXX: This will need to change
     StatusBar.styleDefault();
 
     FastClick.attach(document.body);
@@ -56,47 +56,23 @@
       //get which page is active
       var pageName = $(this.activeElement).attr("name");
 
-      //turn off the modal if it's not a page that shou;ld have one
+      //set the images button value
+      $("#ButtonOfImages").attr("data-id", pageName);
+
+      //turn off the modal if it's not a page that should have one
+      //and hide the buttons on pages that they wont be active
       if (pageName == "welcomePage" || pageName == "stylePage") {
         $("#InfoModal").removeClass("active");
+        $("#ButtonsDiv").fadeOut(200);
       } else {
         document.getElementById("modal-content").innerHTML = service.getInfo(pageName);
+        $("#ButtonsDiv").fadeIn(200);
       }
-
-      //now we have to figure out the info button
-
-
     },
 
     afterInitialize: function() {
       $("#mainslider").css("visibility", "visible");
     }
-  });
-
-  $(".ImageButton").each(function() {
-
-    $(this).on("click", function() {
-
-      var pswpElement = document.querySelectorAll('.pswp')[0];
-
-      // build items array
-      var items = service.getItems($(this).attr("data-id"));
-
-      // define options (if needed)
-      var options = {
-
-        //history & focus options are disabled on CodePen
-        history: false,
-        focus: false,
-        showAnimationDuration: 0,
-        hideAnimationDuration: 0,
-        bgOpacity: 0.9
-      };
-
-      var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-      gallery.init();
-
-    });
   });
 
   function handleExternalURLs() {
