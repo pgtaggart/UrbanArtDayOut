@@ -8,7 +8,6 @@ var ApplicationService = function() {
   }
 
   this.getItems = function(id) {
-
     var gallery = null;
     var l = galleryCollection.length;
 
@@ -23,7 +22,6 @@ var ApplicationService = function() {
   }
 
   this.getInfo = function(id) {
-
     var info = null;
     var l = PageInfo.length;
 
@@ -35,7 +33,21 @@ var ApplicationService = function() {
     }
 
     return info;
+  }
 
+  this.getLocation = function(id) {
+    var info = null;
+    var l = locations.length;
+    var location = new Object();
+
+    for (var i = 0; i < l; i++) {
+      if (locations[i].id == id) {
+        location[0] = locations[i].latitude;
+        location[1] = locations[i].longitude;
+        break;
+      }
+    }
+    return location;
   }
 
   var PageInfo = [{
@@ -53,6 +65,33 @@ var ApplicationService = function() {
   }, {
     id: 'Shoreditch',
     Information: "Not just a hotspot for urban art, there’s lots to do in Shoreditch!<ol><li>1. Have amazing food at Ely's Yard Street Food.</li><li>2. Eat at the Canvas Café on Hanbury Street & draw on walls!</li><li>3. Visit Pure Evil graffiti gallery.</li></ol>"
+  }];
+
+  var locations = [{
+    id: "BrickLane",
+    location: "Brick Lane",
+    latitude: "51.523951",
+    longitude: "-0.071509"
+  }, {
+    id: "Camden",
+    location: "Camden",
+    latitude: "51.541922",
+    longitude: "-0.139424"
+  }, {
+    id: "Portobello",
+    location: "Portobello",
+    latitude: "51.518429",
+    longitude: "-0.206360"
+  }, {
+    id: "Waterloo",
+    location: "Waterloo",
+    latitude: "51.502445",
+    longitude: "-0.113520"
+  }, {
+    id: "Shoreditch",
+    location: "Shoreditch",
+    latitude: "51.523274",
+    longitude: "-0.074916"
   }];
 
   var galleryCollection = [{

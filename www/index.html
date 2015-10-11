@@ -20,11 +20,9 @@
       <ul>
         <li class="dragend-page" name="welcomePage" style="background-image: url('assets/pictures/Welcome.jpg');"></li>
         <li class="dragend-page" name="stylePage" style="background-image: url('assets/pictures/Style.jpg');"></li>
-
         {{#each this}}
           <li class="dragend-page" name="{{id}}" style="background-image: url('assets/pictures/{{image}}');"></li>
         {{/each}}
-
       </ul>
     </div>
   </script>
@@ -53,7 +51,7 @@
       </div>
       <div class="col-xs-4">
         <div class="MapsButton">
-          <a href="maps://?q={{latitude}},{{longitude}}">
+          <a id="ButtonOfMaps" href="maps://?q={{latitude}},{{longitude}}">
             <i class="fa fa-map-pin fa-2x thumbnail-mapsButton"></i>
           </a>
         </div>
@@ -65,7 +63,6 @@
       </div>
     </div>
   </div>
-
 
   <!-- Root element of PhotoSwipe. Must have class pswp. -->
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
