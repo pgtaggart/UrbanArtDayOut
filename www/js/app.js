@@ -57,7 +57,7 @@
       var pageName = $(this.activeElement).attr("name");
 
       //turn off the modal if it's not a page that shou;ld have one
-      if (pageName == "welcomePage" || pageName == "galleries" || pageName == "Contributors") {
+      if (pageName == "welcomePage" || pageName == "stylePage") {
         $("#InfoModal").removeClass("active");
       } else {
         document.getElementById("modal-content").innerHTML = service.getInfo(pageName);
@@ -90,7 +90,7 @@
         focus: false,
         showAnimationDuration: 0,
         hideAnimationDuration: 0,
-        bgOpacity: 0.7
+        bgOpacity: 0.9
       };
 
       var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);

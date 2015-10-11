@@ -85,36 +85,13 @@ p {
   margin-top: .3em;
   margin-right: 25px;
 }
-.img-thumbnail {
-  height: 70px;
-  overflow: hidden;
-  margin-bottom: .3em;
-  padding: 2px;
-  border-radius: 2px;
-}
-.thumbnail {
-  height: 60px;
-  overflow: hidden;
-  background: transparent;
-  border: none;
-  border-radius: none;
-  margin-top: 3px;
-  margin-left: 0em;
-  margin-right: 0em;
-}
 .dragend-page {
   background-size: 100% 98%;
   -webkit-background-size: 100% 98%;
   background-repeat: no-repeat;
 }
-.container {
-  margin-top: 9em;
-}
-.headerMainButtons {
-  max-height: 10px !important;
-}
 
-.fa {color: red;}
+.fa {color: purple;}
 
 .bodal {
     position: fixed;
@@ -124,7 +101,7 @@ p {
     min-height: 100%;
     overflow: hidden;
     background-color: #fff;
-    opacity: 0.8;
+    opacity: 1;
     -webkit-transition: -webkit-transform .25s, opacity 1ms .25s;
     -moz-transition:    -moz-transform .25s, opacity 1ms .25s;
     transition:         transform .25s, opacity 1ms .25s;
@@ -135,7 +112,7 @@ p {
 
 .bodal.active {
     height: 50%;
-    opacity: 0.7;
+    opacity: 0.9;
     -webkit-transition: -webkit-transform .25s;
     -moz-transition:    -moz-transform .25s;
     transition:         transform .25s;
@@ -149,33 +126,33 @@ p {
 }
 
 @media only screen and (min-device-height: 667px) {
-  .container {
-    margin-top: 12em;
-  }
   .thumbnail {
-    height: 50px;
+    position:fixed;
+    bottom: 0;
+    height: 42px;
     overflow: hidden;
     background: transparent;
     border: none;
     border-radius: none;
-    margin-top: 3px;
-    margin-left: 0em;
+    margin-top: 0em;
+    margin-left: 0px;
     margin-right: 0em;
+    margin-bottom: 28px;
   }
 }
+
 @media only screen and (min-device-height: 1024px) {
-  .container {
-    margin-top: 20em;
-  }
   .thumbnail {
-    height: 100px;
+    position:fixed;
+    bottom: 0;
+    height: 60px;
     overflow: hidden;
     background: transparent;
     border: none;
     border-radius: none;
-    margin-top: 12px;
-    margin-left: 2.5em;
+    margin-top: 0em;
     margin-right: 0em;
+    margin-bottom: 28px;
   }
   .modal-text {
     margin-bottom: .5em;
