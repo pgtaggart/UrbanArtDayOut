@@ -90,39 +90,40 @@ p {
   -webkit-background-size: 100% 98%;
   background-repeat: no-repeat;
 }
-.fa {color: purple;}
+.fa {
+  color: purple;
+}
 .bodal {
-    position: fixed;
-    top: 0;
-    z-index: 11;
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    background-color: #fff;
-    opacity: 1;
-    -webkit-transition: -webkit-transform .25s, opacity 1ms .25s;
-    -moz-transition:    -moz-transform .25s, opacity 1ms .25s;
-    transition:         transform .25s, opacity 1ms .25s;
-    -webkit-transform: translate3d(0, 100%, 0);
-    -ms-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  opacity: 1;
+  -webkit-transition: -webkit-transform .25s, opacity 1ms .25s;
+  -moz-transition: -moz-transform .25s, opacity 1ms .25s;
+  transition: transform .25s, opacity 1ms .25s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
 }
 .bodal.active {
-    height: 50%;
-    opacity: 0.9;
-    -webkit-transition: -webkit-transform .25s;
-    -moz-transition:    -moz-transform .25s;
-    transition:         transform .25s;
-    -webkit-transform: translate3d(0, 70%, 0);
-    -ms-transform: translate3d(0, 70%, 0);
-    transform: translate3d(0, 70%, 0);
+  height: 50%;
+  opacity: 0.9;
+  -webkit-transition: -webkit-transform .25s;
+  -moz-transition: -moz-transform .25s;
+  transition: transform .25s;
+  -webkit-transform: translate3d(0, 70%, 0);
+  -ms-transform: translate3d(0, 70%, 0);
+  transform: translate3d(0, 70%, 0);
 }
 .pull-right {
   float: right;
 }
-
 .thumbnail-imageButton {
-  position:fixed;
+  position: fixed;
   bottom: 0;
   height: 42px;
   overflow: hidden;
@@ -132,7 +133,7 @@ p {
   margin-bottom: 20px;
 }
 .thumbnail-mapsButton {
-  position:fixed;
+  position: fixed;
   bottom: 0;
   height: 40px;
   overflow: hidden;
@@ -143,7 +144,7 @@ p {
   margin-left: 25px;
 }
 .thumbnail-infoButton {
-  position:fixed;
+  position: fixed;
   bottom: 0;
   height: 42px;
   overflow: hidden;
@@ -153,10 +154,9 @@ p {
   margin-bottom: 20px;
   margin-left: 40px;
 }
-
 @media only screen and (min-device-height: 667px) {
   .thumbnail-imageButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     height: 42px;
     overflow: hidden;
@@ -166,7 +166,7 @@ p {
     margin-bottom: 24px;
   }
   .thumbnail-mapsButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     height: 42px;
     overflow: hidden;
@@ -177,7 +177,7 @@ p {
     margin-left: 35px;
   }
   .thumbnail-infoButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     height: 42px;
     overflow: hidden;
@@ -188,10 +188,9 @@ p {
     margin-left: 50px;
   }
 }
-
 @media only screen and (min-device-height: 1024px) {
   .thumbnail-imageButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     height: 60px;
     overflow: hidden;
@@ -201,7 +200,7 @@ p {
     margin-bottom: 35px;
   }
   .thumbnail-mapsButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     height: 60px;
     overflow: hidden;
@@ -212,7 +211,7 @@ p {
     margin-left: 100px;
   }
   .thumbnail-infoButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     height: 60px;
     overflow: hidden;

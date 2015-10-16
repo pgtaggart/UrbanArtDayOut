@@ -21,7 +21,7 @@
         <li class="dragend-page" name="welcomePage" style="background-image: url('assets/pictures/Welcome.jpg');"></li>
         <li class="dragend-page" name="stylePage" style="background-image: url('assets/pictures/Style.jpg');"></li>
         {{#each this}}
-          <li class="dragend-page" name="{{id}}" style="background-image: url('assets/pictures/{{image}}');"></li>
+        <li class="dragend-page" name="{{id}}" style="background-image: url('assets/pictures/{{image}}');"></li>
         {{/each}}
       </ul>
     </div>
@@ -126,33 +126,31 @@
   </div>
 
   <script>
-
     $(".ModalButton").on("click", function() {
       $("#InfoModal").toggleClass("active");
     });
 
     $("#ButtonOfImages").on("click", function() {
 
-        var pswpElement = document.querySelectorAll('.pswp')[0];
-        var service = new ApplicationService();
+      var pswpElement = document.querySelectorAll('.pswp')[0];
+      var service = new ApplicationService();
 
-        // build items array
-        var items = service.getItems($(this).attr("data-id"));
+      // build items array
+      var items = service.getItems($(this).attr("data-id"));
 
-        // define options (if needed)
-        var options = {
-          //history & focus options are disabled on CodePen
-          history: false,
-          focus: false,
-          showAnimationDuration: 0,
-          hideAnimationDuration: 0,
-          bgOpacity: 0.9
-        };
+      // define options (if needed)
+      var options = {
+        //history & focus options are disabled on CodePen
+        history: false,
+        focus: false,
+        showAnimationDuration: 0,
+        hideAnimationDuration: 0,
+        bgOpacity: 0.9
+      };
 
-        var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-        gallery.init();
+      var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+      gallery.init();
     });
-
   </script>
 
 </body>
