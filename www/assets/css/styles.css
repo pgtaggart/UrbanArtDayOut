@@ -79,154 +79,218 @@ p {
   color: #fff;
   background-color: #fff;
 }
-.modal-text {
-  margin-bottom: .5em;
-  margin-left: .5em;
-  margin-top: .3em;
-  margin-right: 25px;
-}
 .dragend-page {
   background-size: 100% 98%;
   -webkit-background-size: 100% 98%;
   background-repeat: no-repeat;
 }
-.fa {color: purple;}
+.fa {
+  color: #996aaf;
+}
 .bodal {
-    position: fixed;
-    top: 0;
-    z-index: 11;
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    background-color: #fff;
-    opacity: 1;
-    -webkit-transition: -webkit-transform .25s, opacity 1ms .25s;
-    -moz-transition:    -moz-transform .25s, opacity 1ms .25s;
-    transition:         transform .25s, opacity 1ms .25s;
-    -webkit-transform: translate3d(0, 100%, 0);
-    -ms-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  opacity: 1;
+  -webkit-transition: -webkit-transform .25s, opacity 1ms .25s;
+  -moz-transition: -moz-transform .25s, opacity 1ms .25s;
+  transition: transform .25s, opacity 1ms .25s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
 }
 .bodal.active {
-    height: 50%;
-    opacity: 0.9;
-    -webkit-transition: -webkit-transform .25s;
-    -moz-transition:    -moz-transform .25s;
-    transition:         transform .25s;
-    -webkit-transform: translate3d(0, 70%, 0);
-    -ms-transform: translate3d(0, 70%, 0);
-    transform: translate3d(0, 70%, 0);
+  height: 50%;
+  opacity: 0.9;
+  -webkit-transition: -webkit-transform .25s;
+  -moz-transition: -moz-transform .25s;
+  transition: transform .25s;
+  -webkit-transform: translate3d(0, 70%, 0);
+  -ms-transform: translate3d(0, 70%, 0);
+  transform: translate3d(0, 70%, 0);
 }
 .pull-right {
   float: right;
 }
 
-.thumbnail-imageButton {
-  position:fixed;
-  bottom: 0;
-  height: 42px;
-  overflow: hidden;
-  background: transparent;
-  border: none;
-  border-radius: none;
-  margin-bottom: 20px;
-}
-.thumbnail-mapsButton {
-  position:fixed;
-  bottom: 0;
-  height: 40px;
-  overflow: hidden;
-  background: transparent;
-  border: none;
-  border-radius: none;
-  margin-bottom: 20px;
-  margin-left: 25px;
-}
-.thumbnail-infoButton {
-  position:fixed;
-  bottom: 0;
-  height: 42px;
-  overflow: hidden;
-  background: transparent;
-  border: none;
-  border-radius: none;
-  margin-bottom: 20px;
-  margin-left: 40px;
-}
+/*iPhone < 5:
+@media screen and (device-aspect-ratio: 2/3) {}
+*/
 
-@media only screen and (min-device-height: 667px) {
+
+/*iPhone 5:*/
+@media screen and (device-aspect-ratio: 40/71) {
   .thumbnail-imageButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
-    height: 42px;
+    height: 36px;
     overflow: hidden;
     background: transparent;
     border: none;
     border-radius: none;
-    margin-bottom: 24px;
+    margin-bottom: 5px;
   }
   .thumbnail-mapsButton {
-    position:fixed;
+    position: fixed;
+    bottom: 0;
+    height: 36px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 4px;
+    margin-left: 25px;
+  }
+  .thumbnail-infoButton {
+    position: fixed;
+    bottom: 0;
+    height: 36px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 5px;
+    margin-left: 40px;
+  }
+  .modal-text {
+    margin-bottom: .5em;
+    margin-top: .3em;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+  }
+}
+
+/*iPhone 6:*/
+@media screen and (device-aspect-ratio: 375/667) {
+  .thumbnail-imageButton {
+    position: fixed;
     bottom: 0;
     height: 42px;
     overflow: hidden;
     background: transparent;
     border: none;
     border-radius: none;
-    margin-bottom: 24px;
+    margin-bottom: 6px;
+  }
+  .thumbnail-mapsButton {
+    position: fixed;
+    bottom: 0;
+    height: 42px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 6px;
     margin-left: 35px;
   }
   .thumbnail-infoButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     height: 42px;
     overflow: hidden;
     background: transparent;
     border: none;
     border-radius: none;
-    margin-bottom: 24px;
+    margin-bottom: 6px;
     margin-left: 50px;
+  }
+  .modal-text {
+    margin-bottom: .5em;
+    margin-top: .3em;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
   }
 }
 
-@media only screen and (min-device-height: 1024px) {
+/*iPhone 6 Plus:*/
+@media screen and (device-aspect-ratio: 16/9) {
   .thumbnail-imageButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 42px;
     overflow: hidden;
     background: transparent;
     border: none;
     border-radius: none;
-    margin-bottom: 35px;
+    margin-bottom: 6px;
   }
   .thumbnail-mapsButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 42px;
     overflow: hidden;
     background: transparent;
     border: none;
     border-radius: none;
-    margin-bottom: 35px;
+    margin-bottom: 6px;
+    margin-left: 35px;
+  }
+  .thumbnail-infoButton {
+    position: fixed;
+    bottom: 0;
+    height: 42px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 6px;
+    margin-left: 50px;
+  }
+  .modal-text {
+    margin-bottom: .5em;
+    margin-top: .3em;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+
+/*iPad:*/
+@media screen and (device-aspect-ratio: 3/4) {
+  .thumbnail-imageButton {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 5px;
+  }
+  .thumbnail-mapsButton {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 6px;
     margin-left: 100px;
   }
   .thumbnail-infoButton {
-    position:fixed;
+    position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 100px;
     overflow: hidden;
     background: transparent;
     border: none;
     border-radius: none;
-    margin-bottom: 35px;
+    margin-bottom: 5px;
     margin-left: 170px;
   }
   .modal-text {
     margin-bottom: .5em;
     margin-left: .5em;
-    margin-top: .3em;
-    margin-right: 25px;
-    font-size: 24px;
+    margin-top: .5em;
+    margin-right: .5em;
+    font-size: 26px;
+    line-height: 1.5;
   }
 }

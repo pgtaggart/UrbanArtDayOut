@@ -17,6 +17,8 @@
       $('body').html(new HomeView(service).render().$el);
     });
 
+    console.log('started yall');
+
     router.start();
   });
 
@@ -25,7 +27,7 @@
   document.addEventListener('deviceready', function() {
 
     StatusBar.overlaysWebView(false);
-    StatusBar.backgroundColorByHexString('#a3c0d0');
+    StatusBar.backgroundColorByHexString('#00000'); //XXX: This will need to change
     StatusBar.styleDefault();
 
     FastClick.attach(document.body);
@@ -41,67 +43,38 @@
   var container = $("#mainslider ul");
 
   firstChild.appendTo(container);
-  //lastChild.prependTo(container);
 
   //initialise drag interface
   new Dragend($("#mainslider").get(0), {
 
-    //jumpToPage: 2,
-
     onSwipeEnd: function() {
 
-      //var first = this.pages[0];
-
       var last = this.pages[this.pages.length - 1];
-
-      //if (first === this.activeElement) {
-      //  this.jumpToPage(this.pages.length - 1);
-      //}
 
       if (last === this.activeElement) {
         this.jumpToPage(1);
       }
 
+      //get which page is active
       var pageName = $(this.activeElement).attr("name");
 
-      if (pageName == "welcomePage" || pageName == "galleries" || pageName == "Contributors") {
+      //set the images button value
+      $("#ButtonOfImages").attr("data-id", pageName);
+
+      //turn off the modal if it's not a page that should have one
+      //and hide the buttons on pages that they wont be active
+      if (pageName == "welcomePage" || pageName == "stylePage") {
         $("#InfoModal").removeClass("active");
+        $("#ButtonsDiv").fadeOut(200);
       } else {
         document.getElementById("modal-content").innerHTML = service.getInfo(pageName);
+        $("#ButtonsDiv").fadeIn(200);
       }
-
-
     },
 
     afterInitialize: function() {
       $("#mainslider").css("visibility", "visible");
     }
-  });
-
-  $(".ImageButton").each(function() {
-
-    $(this).on("click", function() {
-
-      var pswpElement = document.querySelectorAll('.pswp')[0];
-
-      // build items array
-      var items = service.getItems($(this).attr("data-id"));
-
-      // define options (if needed)
-      var options = {
-
-        //history & focus options are disabled on CodePen
-        history: false,
-        focus: false,
-        showAnimationDuration: 0,
-        hideAnimationDuration: 0,
-        bgOpacity: 0.7
-      };
-
-      var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-      gallery.init();
-
-    });
   });
 
   function handleExternalURLs() {

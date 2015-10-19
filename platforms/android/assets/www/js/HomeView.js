@@ -1,6 +1,22 @@
 var HomeView = function() {
 
+  <li class="dragend-page" name="welcomePage" style="background-image: url('assets/pictures/Welcome.jpg');"></li>
+  <li class="dragend-page" name="stylePage" style="background-image: url('assets/pictures/Style.jpg');"></li>
+
+
   var pages = [{
+    id: "welcomePage",
+    image: "Welcome.jpg",
+    location: "",
+    latitude: "0",
+    longitude: "0"
+  }, {
+    id: "stylePage",
+    image: "Style.jpg",
+    location: "",
+    latitude: "0",
+    longitude: "0"
+  }, {
     id: "BrickLane",
     image: "BrickLane.jpg",
     location: "Brick Lane",

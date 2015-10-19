@@ -15,3 +15,139 @@
 2015-09-16 13:54:53.505 UrbanArtDayOut[11670:667068] [CDVTimer][TotalPluginStartup] 94.762027ms
 2015-09-16 13:54:53.620 UrbanArtDayOut[11670:667068] Resetting plugins due to page load.
 2015-09-16 13:54:53.879 UrbanArtDayOut[11670:667068] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/51F2233A-034A-4690-AF56-6445DE271E08/data/Containers/Bundle/Application/F4869DBC-BFFA-4A77-ADC2-E70E57FB1F7B/UrbanArtDayOut.app/www/index.html
+2015-10-14 19:54:43.327 UrbanArtDayOut[11680:545189] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/49E989EB-86A0-438E-886C-C01774C8921C/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-14 19:54:43.588 UrbanArtDayOut[11680:545189] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-14 19:54:43.589 UrbanArtDayOut[11680:545189] Multi-tasking -> Device: YES, App: YES
+2015-10-14 19:54:43.601 UrbanArtDayOut[11680:545189] Unlimited access to network resources
+2015-10-14 19:54:44.261 UrbanArtDayOut[11680:545189] [CDVTimer][statusbar] 357.342005ms
+2015-10-14 19:54:44.261 UrbanArtDayOut[11680:545189] [CDVTimer][TotalPluginStartup] 357.550025ms
+2015-10-14 19:54:44.318 UrbanArtDayOut[11680:545189] Resetting plugins due to page load.
+2015-10-14 19:54:44.645 UrbanArtDayOut[11680:545189] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/220D93C5-990A-4D07-AF74-315B33F9D0A6/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:15:57.584 UrbanArtDayOut[12945:607027] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/1890279F-198D-43BD-9A0F-509D27648CF1/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:15:57.772 UrbanArtDayOut[12945:607027] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:15:57.773 UrbanArtDayOut[12945:607027] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:15:57.789 UrbanArtDayOut[12945:607027] Unlimited access to network resources
+2015-10-15 20:15:58.250 UrbanArtDayOut[12945:607027] [CDVTimer][statusbar] 357.688010ms
+2015-10-15 20:15:58.251 UrbanArtDayOut[12945:607027] [CDVTimer][TotalPluginStartup] 357.914031ms
+2015-10-15 20:15:58.281 UrbanArtDayOut[12945:607027] Resetting plugins due to page load.
+2015-10-15 20:15:58.421 UrbanArtDayOut[12945:607027] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/543F615C-6B0C-4E9A-812F-200C353FE4F9/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:34:47.330 UrbanArtDayOut[13590:618313] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/B2FBCD01-9399-4BD6-BA08-5DDC3CF0DD18/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:34:47.523 UrbanArtDayOut[13590:618313] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:34:47.523 UrbanArtDayOut[13590:618313] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:34:47.525 UrbanArtDayOut[13590:618313] Unlimited access to network resources
+2015-10-15 20:34:47.584 UrbanArtDayOut[13590:618313] [CDVTimer][statusbar] 36.053002ms
+2015-10-15 20:34:47.584 UrbanArtDayOut[13590:618313] [CDVTimer][TotalPluginStartup] 36.328018ms
+2015-10-15 20:34:47.745 UrbanArtDayOut[13590:618313] Resetting plugins due to page load.
+2015-10-15 20:34:47.876 UrbanArtDayOut[13590:618313] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/BF083F62-87AC-4B52-86BA-9802CFFDC18E/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:36:28.061 UrbanArtDayOut[14173:620805] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/588504E0-FB8C-4F0C-AAB3-200F113FA21F/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:36:28.257 UrbanArtDayOut[14173:620805] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:36:28.257 UrbanArtDayOut[14173:620805] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:36:28.259 UrbanArtDayOut[14173:620805] Unlimited access to network resources
+2015-10-15 20:36:28.313 UrbanArtDayOut[14173:620805] [CDVTimer][statusbar] 31.801999ms
+2015-10-15 20:36:28.313 UrbanArtDayOut[14173:620805] [CDVTimer][TotalPluginStartup] 31.969011ms
+2015-10-15 20:36:28.458 UrbanArtDayOut[14173:620805] Resetting plugins due to page load.
+2015-10-15 20:36:28.612 UrbanArtDayOut[14173:620805] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/65CE5E12-68B9-4320-8404-D9C3B23A80D3/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:41:34.532 UrbanArtDayOut[14769:627059] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/5FDB5488-BE72-46D9-87D2-E5A7AE23139B/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:41:34.714 UrbanArtDayOut[14769:627059] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:41:34.714 UrbanArtDayOut[14769:627059] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:41:34.716 UrbanArtDayOut[14769:627059] Unlimited access to network resources
+2015-10-15 20:41:34.777 UrbanArtDayOut[14769:627059] [CDVTimer][statusbar] 35.558999ms
+2015-10-15 20:41:34.777 UrbanArtDayOut[14769:627059] [CDVTimer][TotalPluginStartup] 35.706043ms
+2015-10-15 20:41:34.929 UrbanArtDayOut[14769:627059] Resetting plugins due to page load.
+2015-10-15 20:41:35.083 UrbanArtDayOut[14769:627059] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/1270398A-B573-4890-91AE-0BF37FDA531D/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:42:31.444 UrbanArtDayOut[15341:630152] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/84F3D995-115F-45C7-8249-5DA94CBB62F1/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:42:31.565 UrbanArtDayOut[15341:630152] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:42:31.565 UrbanArtDayOut[15341:630152] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:42:31.567 UrbanArtDayOut[15341:630152] Unlimited access to network resources
+2015-10-15 20:42:31.620 UrbanArtDayOut[15341:630152] [CDVTimer][statusbar] 31.265020ms
+2015-10-15 20:42:31.620 UrbanArtDayOut[15341:630152] [CDVTimer][TotalPluginStartup] 31.437039ms
+2015-10-15 20:42:31.741 UrbanArtDayOut[15341:630152] Resetting plugins due to page load.
+2015-10-15 20:42:31.925 UrbanArtDayOut[15341:630152] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/738FB8D4-A41D-4CDF-BC03-66808D78DDDF/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:43:17.230 UrbanArtDayOut[15916:633017] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/1A746CA0-FC25-4B22-BD16-AFD732C01CE0/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:43:17.393 UrbanArtDayOut[15916:633017] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:43:17.393 UrbanArtDayOut[15916:633017] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:43:17.395 UrbanArtDayOut[15916:633017] Unlimited access to network resources
+2015-10-15 20:43:17.450 UrbanArtDayOut[15916:633017] [CDVTimer][statusbar] 33.205986ms
+2015-10-15 20:43:17.450 UrbanArtDayOut[15916:633017] [CDVTimer][TotalPluginStartup] 33.375025ms
+2015-10-15 20:43:17.615 UrbanArtDayOut[15916:633017] Resetting plugins due to page load.
+2015-10-15 20:43:17.789 UrbanArtDayOut[15916:633017] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/8EEC68C8-F1B6-4CC8-9571-EF78FBA0613B/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:44:15.476 UrbanArtDayOut[16488:635890] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/B81ABB3D-BF9D-476E-85D3-DCC749A9B217/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:44:15.653 UrbanArtDayOut[16488:635890] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:44:15.653 UrbanArtDayOut[16488:635890] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:44:15.655 UrbanArtDayOut[16488:635890] Unlimited access to network resources
+2015-10-15 20:44:15.707 UrbanArtDayOut[16488:635890] [CDVTimer][statusbar] 31.264007ms
+2015-10-15 20:44:15.707 UrbanArtDayOut[16488:635890] [CDVTimer][TotalPluginStartup] 31.441987ms
+2015-10-15 20:44:15.875 UrbanArtDayOut[16488:635890] Resetting plugins due to page load.
+2015-10-15 20:44:16.026 UrbanArtDayOut[16488:635890] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/71CB3099-D33B-4DED-B1DB-7D95908E72DC/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:45:52.007 UrbanArtDayOut[17065:639924] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/217458B0-5841-4C47-8F87-4243A2298012/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:45:52.170 UrbanArtDayOut[17065:639924] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:45:52.170 UrbanArtDayOut[17065:639924] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:45:52.172 UrbanArtDayOut[17065:639924] Unlimited access to network resources
+2015-10-15 20:45:52.226 UrbanArtDayOut[17065:639924] [CDVTimer][statusbar] 32.081008ms
+2015-10-15 20:45:52.226 UrbanArtDayOut[17065:639924] [CDVTimer][TotalPluginStartup] 32.233000ms
+2015-10-15 20:45:52.374 UrbanArtDayOut[17065:639924] Resetting plugins due to page load.
+2015-10-15 20:45:52.562 UrbanArtDayOut[17065:639924] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/B1465609-A2A2-48AD-AAB4-803D5C1805AD/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:47:44.062 UrbanArtDayOut[17642:644012] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/45E4DAB9-EB19-4405-83E5-44E574275653/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:47:44.259 UrbanArtDayOut[17642:644012] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:47:44.260 UrbanArtDayOut[17642:644012] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:47:44.262 UrbanArtDayOut[17642:644012] Unlimited access to network resources
+2015-10-15 20:47:44.322 UrbanArtDayOut[17642:644012] [CDVTimer][statusbar] 32.922029ms
+2015-10-15 20:47:44.322 UrbanArtDayOut[17642:644012] [CDVTimer][TotalPluginStartup] 33.064008ms
+2015-10-15 20:47:44.460 UrbanArtDayOut[17642:644012] Resetting plugins due to page load.
+2015-10-15 20:47:44.738 UrbanArtDayOut[17642:644012] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/40257B6A-D363-4601-8498-B931AA8B2BAE/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:54:27.595 UrbanArtDayOut[18248:654723] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/EECEBED6-4C06-4FBA-8079-4FEDDCAA7399/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:54:27.760 UrbanArtDayOut[18248:654723] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:54:27.760 UrbanArtDayOut[18248:654723] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:54:27.762 UrbanArtDayOut[18248:654723] Unlimited access to network resources
+2015-10-15 20:54:27.815 UrbanArtDayOut[18248:654723] [CDVTimer][statusbar] 31.382978ms
+2015-10-15 20:54:27.816 UrbanArtDayOut[18248:654723] [CDVTimer][TotalPluginStartup] 31.544030ms
+2015-10-15 20:54:27.977 UrbanArtDayOut[18248:654723] Resetting plugins due to page load.
+2015-10-15 20:54:28.118 UrbanArtDayOut[18248:654723] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/3BD1D9A2-2014-4C0C-8C01-A236C261085C/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:55:07.457 UrbanArtDayOut[18827:657520] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/F1E1EA18-EC50-4F4E-9611-2CC198911D66/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:55:07.615 UrbanArtDayOut[18827:657520] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:55:07.615 UrbanArtDayOut[18827:657520] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:55:07.617 UrbanArtDayOut[18827:657520] Unlimited access to network resources
+2015-10-15 20:55:07.673 UrbanArtDayOut[18827:657520] [CDVTimer][statusbar] 32.826006ms
+2015-10-15 20:55:07.673 UrbanArtDayOut[18827:657520] [CDVTimer][TotalPluginStartup] 32.980978ms
+2015-10-15 20:55:07.816 UrbanArtDayOut[18827:657520] Resetting plugins due to page load.
+2015-10-15 20:55:08.026 UrbanArtDayOut[18827:657520] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/E8722BBD-95B7-420D-9E60-454468A04C45/UrbanArtDayOut.app/www/index.html
+2015-10-15 20:58:55.092 UrbanArtDayOut[19462:662013] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/5A7E0991-9B59-410A-BCB7-4DC4FF5E6851/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 20:58:55.288 UrbanArtDayOut[19462:662013] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 20:58:55.288 UrbanArtDayOut[19462:662013] Multi-tasking -> Device: YES, App: YES
+2015-10-15 20:58:55.290 UrbanArtDayOut[19462:662013] Unlimited access to network resources
+2015-10-15 20:58:55.345 UrbanArtDayOut[19462:662013] [CDVTimer][statusbar] 32.333970ms
+2015-10-15 20:58:55.345 UrbanArtDayOut[19462:662013] [CDVTimer][TotalPluginStartup] 32.531977ms
+2015-10-15 20:58:55.489 UrbanArtDayOut[19462:662013] Resetting plugins due to page load.
+2015-10-15 20:58:55.645 UrbanArtDayOut[19462:662013] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/B76AEE56-0FEF-49E7-9FAC-7C59795924D4/UrbanArtDayOut.app/www/index.html
+2015-10-15 21:02:51.964 UrbanArtDayOut[20053:666115] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/9CADDACC-D9DD-43B7-B9A2-DCA9C9C8F7EF/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 21:02:52.111 UrbanArtDayOut[20053:666115] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 21:02:52.111 UrbanArtDayOut[20053:666115] Multi-tasking -> Device: YES, App: YES
+2015-10-15 21:02:52.113 UrbanArtDayOut[20053:666115] Unlimited access to network resources
+2015-10-15 21:02:52.166 UrbanArtDayOut[20053:666115] [CDVTimer][statusbar] 31.204998ms
+2015-10-15 21:02:52.166 UrbanArtDayOut[20053:666115] [CDVTimer][TotalPluginStartup] 31.363010ms
+2015-10-15 21:02:52.313 UrbanArtDayOut[20053:666115] Resetting plugins due to page load.
+2015-10-15 21:02:52.553 UrbanArtDayOut[20053:666115] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/619DECAE-304C-4AFA-98AA-0EB9BB51B354/UrbanArtDayOut.app/www/index.html
+2015-10-15 22:02:47.227 UrbanArtDayOut[20657:670268] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/3F56B51B-C084-4158-9484-5608506833A5/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 22:02:47.390 UrbanArtDayOut[20657:670268] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 22:02:47.391 UrbanArtDayOut[20657:670268] Multi-tasking -> Device: YES, App: YES
+2015-10-15 22:02:47.393 UrbanArtDayOut[20657:670268] Unlimited access to network resources
+2015-10-15 22:02:47.447 UrbanArtDayOut[20657:670268] [CDVTimer][statusbar] 32.339036ms
+2015-10-15 22:02:47.448 UrbanArtDayOut[20657:670268] [CDVTimer][TotalPluginStartup] 32.502055ms
+2015-10-15 22:02:47.612 UrbanArtDayOut[20657:670268] Resetting plugins due to page load.
+2015-10-15 22:02:47.747 UrbanArtDayOut[20657:670268] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/019F0D01-CE08-4CA4-98C9-7E0330816DF8/UrbanArtDayOut.app/www/index.html
+2015-10-15 22:03:34.103 UrbanArtDayOut[21230:672252] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/AB1A9908-3501-401B-A737-C2E3A577790B/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 22:03:34.283 UrbanArtDayOut[21230:672252] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 22:03:34.283 UrbanArtDayOut[21230:672252] Multi-tasking -> Device: YES, App: YES
+2015-10-15 22:03:34.285 UrbanArtDayOut[21230:672252] Unlimited access to network resources
+2015-10-15 22:03:34.347 UrbanArtDayOut[21230:672252] [CDVTimer][statusbar] 38.941026ms
+2015-10-15 22:03:34.348 UrbanArtDayOut[21230:672252] [CDVTimer][TotalPluginStartup] 39.116979ms
+2015-10-15 22:03:34.502 UrbanArtDayOut[21230:672252] Resetting plugins due to page load.
+2015-10-15 22:03:34.627 UrbanArtDayOut[21230:672252] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/C1D9C1F4-AB0D-4170-8213-35F26BC23B70/UrbanArtDayOut.app/www/index.html
+2015-10-15 22:17:37.314 UrbanArtDayOut[21845:680347] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Data/Application/CB772985-74EE-47BA-9A36-5F1FDC72E052/Library/Cookies/com.bouncetheatre.urbanartdayout.binarycookies
+2015-10-15 22:17:37.496 UrbanArtDayOut[21845:680347] Apache Cordova native platform version 3.8.0 is starting.
+2015-10-15 22:17:37.496 UrbanArtDayOut[21845:680347] Multi-tasking -> Device: YES, App: YES
+2015-10-15 22:17:37.515 UrbanArtDayOut[21845:680347] Unlimited access to network resources
+2015-10-15 22:17:37.602 UrbanArtDayOut[21845:680347] [CDVTimer][statusbar] 62.740982ms
+2015-10-15 22:17:37.602 UrbanArtDayOut[21845:680347] [CDVTimer][TotalPluginStartup] 62.910020ms
+2015-10-15 22:17:37.713 UrbanArtDayOut[21845:680347] Resetting plugins due to page load.
+2015-10-15 22:17:37.869 UrbanArtDayOut[21845:680347] Finished load of: file:///Users/petert/Library/Developer/CoreSimulator/Devices/E9D871A5-F745-4ED2-85AA-80CFE8625A6C/data/Containers/Bundle/Application/89DB963D-6F01-4E55-9BAE-21F1F89B4B90/UrbanArtDayOut.app/www/index.html

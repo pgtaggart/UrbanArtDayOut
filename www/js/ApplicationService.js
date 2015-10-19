@@ -40,19 +40,19 @@ var ApplicationService = function() {
 
   var PageInfo = [{
     id: 'BrickLane',
-    Information: "Once you’ve seen the art, try our top three things to do!<ul><li>1. Have one of over 30 types of cereal at the Cereal Café.</li><li>2. Visit Whitechapel Gallery.</li><li>3. Shop at the Vintage Clothes Market.</li></ul>"
+    Information: "Brick Lane attracts artists from all over the UK. There are some great examples of iconic street art, which celebrates and embraces the cultural identity of the community. These include the Crane by Roa to celebrate the Bangladeshi community & the Two Stiks holding hands on Princelet Street depicting a burka clad Stik holding hands with a non-burka wearing Stik."
   }, {
     id: 'Camden',
-    Information: "Visit Camden, spot the art and enjoy shopping & food at the markets.<ol><li>1. Eat, watch performance, join the Roundhouse.</li><li>2. Shop and eat at Camden Lock.</li><li>3. More shopping and eating at Camden Market.</li></ol>"
+    Information: "Camden’s heritage includes a rich mix of artists and musicians who celebrate countercultures, to which the street artists can pay homage. Combined with this, the local architecture of railway lines, bridges and canals are bursting with opportunity for urban artists to brighten the area."
   }, {
     id: 'Portobello',
-    Information: "Mix a day of spotting art with making your own art, shopping & eating.<ol><li>1. Have a workshop at the Graffik Gallery.</li><li>2. Shop at Portobello Market.</li><li>3. Eat at Acklam Village.</li></ol>"
+    Information: "Portobello Road in the iconic area of Noting Hill and is famous for its market. It also houses a wealth of street art. Along the road, you can spot various murals including a Banksy preserved behind glass, which demonstrates the growing financial value of street art. Further down there is a chance to sample fine foods from the markets and see work in Acklam Village."
   }, {
     id: 'Waterloo',
-    Information: "You can spend the whole day around the Southbank soaking in art.<ol><li>1. Walk through or paint at the Graffiti Tunnel.</li><li>2. Hang out and watch skaters/artists at the Skate Park.</li><li>3. Visit the Southbank Centre/ Festival Village for food & art.</li></ol>"
+    Information: "Underneath the station is Leake Street, a legal place to paint. Walk onto the Southbank and you will see the skate park – home to urban artists for over 40 years. Further down the Thames over Millennium Bridge, Ben Wilson has painted chewing gum showing how urban art can brighten the smallest of forgotten spaces."
   }, {
     id: 'Shoreditch',
-    Information: "Not just a hotspot for urban art, there’s lots to do in Shoreditch!<ol><li>1. Have amazing food at Ely's Yard Street Food.</li><li>2. Eat at the Canvas Café on Hanbury Street & draw on walls!</li><li>3. Visit Pure Evil graffiti gallery.</li></ol>"
+    Information: "Shoreditch may host the greatest concentration of techniques and styles of urban art across London, making It a mecca for some of the world’s greatest street artists, who are safe in the knowledge they will attract an appreciative audience. Coming out of the station, you’ll see a Ben Eine piece – a formerly unknown street artist whose work has made it all the way to the White House."
   }];
 
   var galleryCollection = [{

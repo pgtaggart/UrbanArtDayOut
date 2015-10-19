@@ -1,6 +1,18 @@
 var HomeView = function() {
 
   var pages = [{
+    id: "welcomePage",
+    image: "Welcome.jpg",
+    location: "",
+    latitude: "0",
+    longitude: "0"
+  }, {
+    id: "stylePage",
+    image: "Style.jpg",
+    location: "",
+    latitude: "0",
+    longitude: "0"
+  }, {
     id: "BrickLane",
     image: "BrickLane.jpg",
     location: "Brick Lane",
@@ -38,6 +50,7 @@ var HomeView = function() {
   };
 
   this.render = function() {
+    console.log('Hello there');
     this.$el.html(this.template(pages));
     return this;
   };
