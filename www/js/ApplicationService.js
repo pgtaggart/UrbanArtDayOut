@@ -8,7 +8,6 @@ var ApplicationService = function() {
   }
 
   this.getItems = function(id) {
-
     var gallery = null;
     var l = galleryCollection.length;
 
@@ -23,7 +22,6 @@ var ApplicationService = function() {
   }
 
   this.getInfo = function(id) {
-
     var info = null;
     var l = PageInfo.length;
 
@@ -35,7 +33,21 @@ var ApplicationService = function() {
     }
 
     return info;
+  }
 
+  this.getLocation = function(id) {
+    var info = null;
+    var l = locations.length;
+    var location = new Object();
+
+    for (var i = 0; i < l; i++) {
+      if (locations[i].id == id) {
+        location[0] = locations[i].latitude;
+        location[1] = locations[i].longitude;
+        break;
+      }
+    }
+    return location;
   }
 
   var PageInfo = [{
@@ -53,6 +65,33 @@ var ApplicationService = function() {
   }, {
     id: 'Shoreditch',
     Information: "Shoreditch may host the greatest concentration of techniques and styles of urban art across London, making It a mecca for some of the world’s greatest street artists, who are safe in the knowledge they will attract an appreciative audience. Coming out of the station, you’ll see a Ben Eine piece – a formerly unknown street artist whose work has made it all the way to the White House."
+  }];
+
+  var locations = [{
+    id: "BrickLane",
+    location: "Brick Lane",
+    latitude: "51.523951",
+    longitude: "-0.071509"
+  }, {
+    id: "Camden",
+    location: "Camden",
+    latitude: "51.541922",
+    longitude: "-0.139424"
+  }, {
+    id: "Portobello",
+    location: "Portobello",
+    latitude: "51.518429",
+    longitude: "-0.206360"
+  }, {
+    id: "Waterloo",
+    location: "Waterloo",
+    latitude: "51.502445",
+    longitude: "-0.113520"
+  }, {
+    id: "Shoreditch",
+    location: "Shoreditch",
+    latitude: "51.523274",
+    longitude: "-0.074916"
   }];
 
   var galleryCollection = [{

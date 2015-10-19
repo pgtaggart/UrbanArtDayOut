@@ -14,34 +14,19 @@ var HomeView = function() {
     longitude: "0"
   }, {
     id: "BrickLane",
-    image: "BrickLane.jpg",
-    location: "Brick Lane",
-    latitude: "51.523951",
-    longitude: "-0.071509"
+    image: "BrickLane.jpg"
   }, {
     id: "Camden",
-    image: "Camden.jpg",
-    location: "Camden",
-    latitude: "51.541922",
-    longitude: "-0.139424"
+    image: "Camden.jpg"
   }, {
     id: "Portobello",
-    image: "Portobello.jpg",
-    location: "Portobello",
-    latitude: "51.518429",
-    longitude: "-0.206360"
+    image: "Portobello.jpg"
   }, {
     id: "Waterloo",
-    image: "Waterloo.jpg",
-    location: "Waterloo",
-    latitude: "51.502445",
-    longitude: "-0.113520"
+    image: "Waterloo.jpg"
   }, {
     id: "Shoreditch",
-    image: "Shoreditch.jpg",
-    location: "Shoreditch",
-    latitude: "51.523274",
-    longitude: "-0.074916"
+    image: "Shoreditch.jpg"
   }];
 
   this.initialize = function() {
@@ -56,4 +41,5 @@ var HomeView = function() {
   };
 
   this.initialize();
+
 }

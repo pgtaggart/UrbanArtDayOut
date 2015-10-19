@@ -85,7 +85,11 @@ p {
   background-repeat: no-repeat;
 }
 .fa {
+<<<<<<< HEAD
   color: #996aaf;
+=======
+  color: purple;
+>>>>>>> origin/master
 }
 .bodal {
   position: fixed;
@@ -116,6 +120,7 @@ p {
 .pull-right {
   float: right;
 }
+<<<<<<< HEAD
 
 /*iPhone < 5:
 @media screen and (device-aspect-ratio: 2/3) {}
@@ -210,6 +215,41 @@ p {
 
 /*iPhone 6 Plus:*/
 @media screen and (device-aspect-ratio: 16/9) {
+=======
+.thumbnail-imageButton {
+  position: fixed;
+  bottom: 0;
+  height: 42px;
+  overflow: hidden;
+  background: transparent;
+  border: none;
+  border-radius: none;
+  margin-bottom: 20px;
+}
+.thumbnail-mapsButton {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  overflow: hidden;
+  background: transparent;
+  border: none;
+  border-radius: none;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+.thumbnail-infoButton {
+  position: fixed;
+  bottom: 0;
+  height: 42px;
+  overflow: hidden;
+  background: transparent;
+  border: none;
+  border-radius: none;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+@media only screen and (min-device-height: 667px) {
+>>>>>>> origin/master
   .thumbnail-imageButton {
     position: fixed;
     bottom: 0;
@@ -250,9 +290,13 @@ p {
     font-size: 14px;
   }
 }
+<<<<<<< HEAD
 
 /*iPad:*/
 @media screen and (device-aspect-ratio: 3/4) {
+=======
+@media only screen and (min-device-height: 1024px) {
+>>>>>>> origin/master
   .thumbnail-imageButton {
     position: fixed;
     bottom: 0;

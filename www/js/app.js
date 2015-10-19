@@ -23,15 +23,16 @@
   });
 
   /* --------------------------------- Event Registration -------------------------------- */
-
   document.addEventListener('deviceready', function() {
 
     StatusBar.overlaysWebView(false);
+<<<<<<< HEAD
     StatusBar.backgroundColorByHexString('#00000'); //XXX: This will need to change
+=======
+    StatusBar.backgroundColorByHexString('#a3c0d0'); //XXX: This will need to change
+>>>>>>> origin/master
     StatusBar.styleDefault();
-
     FastClick.attach(document.body);
-
     handleExternalURLs();
 
   }, false);
@@ -84,6 +85,8 @@
       } else {
         document.getElementById("modal-content").innerHTML = service.getInfo(pageName);
         $("#ButtonsDiv").fadeIn(200);
+        var location = service.getLocation(pageName);
+        $("#ButtonOfMaps").attr('href', "maps://?q=" + location[0] + "," + location[1]);
       }
     },
 
