@@ -26,11 +26,7 @@
   document.addEventListener('deviceready', function() {
 
     StatusBar.overlaysWebView(false);
-<<<<<<< HEAD
     StatusBar.backgroundColorByHexString('#00000'); //XXX: This will need to change
-=======
-    StatusBar.backgroundColorByHexString('#a3c0d0'); //XXX: This will need to change
->>>>>>> origin/master
     StatusBar.styleDefault();
     FastClick.attach(document.body);
     handleExternalURLs();
