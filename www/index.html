@@ -9,17 +9,15 @@
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/css/styles.css" rel="stylesheet">
-
 </head>
 
 <body>
 
   <script id="home-template" type="text/template">
-
     <div id="mainslider">
       <ul>
         {{#each this}}
-          <li class="dragend-page" name="{{id}}" style="background-image: url('assets/pictures/{{image}}');"></li>
+        <li class="dragend-page" name="{{id}}" style="background-image: url('assets/pictures/{{image}}');"></li>
         {{/each}}
       </ul>
     </div>
@@ -44,19 +42,19 @@
     <div class="row">
       <div class="col-xs-4">
         <div id="ButtonOfImages" class="ImageButton" data-id="start">
-          <i class="fa fa-camera-retro fa-2x thumbnail-imageButton"></i>
+          <i id="ButtonOfImagesIcon"></i>
         </div>
       </div>
       <div class="col-xs-4">
         <div class="MapsButton">
           <a id="ButtonOfMaps" href="maps://?q={{latitude}},{{longitude}}">
-            <i class="fa fa-map-pin fa-2x thumbnail-mapsButton"></i>
+            <i id="ButtonOfMapsIcon"></i>
           </a>
         </div>
       </div>
       <div class="col-xs-4">
         <div id="ButtonOfInfo" class="ModalButton">
-          <i class="fa fa-info-circle fa-2x thumbnail-infoButton"></i>
+          <i id="ButtonOfInfoIcon"></i>
         </div>
       </div>
     </div>
@@ -124,6 +122,19 @@
   </div>
 
   <script>
+    $(document).ready(function() {
+      if (navigator.userAgent.match(/iPad/i) != null) {
+        $('#ButtonOfImagesIcon').addClass("fa fa-camera-retro fa-4x thumbnail-imageButton");
+        $('#ButtonOfMapsIcon').addClass("fa fa-map-pin fa-4x thumbnail-mapsButton");
+        $('#ButtonOfInfoIcon').addClass("fa fa-info-circle fa-4x thumbnail-infoButton");
+      } else {
+        $('#ButtonOfImagesIcon').addClass("fa fa-camera-retro fa-2x thumbnail-imageButton");
+        $('#ButtonOfMapsIcon').addClass("fa fa-map-pin fa-2x thumbnail-mapsButton");
+        $('#ButtonOfInfoIcon').addClass("fa fa-info-circle fa-2x thumbnail-infoButton");
+      }
+
+    });
+
     $(".ModalButton").on("click", function() {
       $("#InfoModal").toggleClass("active");
     });

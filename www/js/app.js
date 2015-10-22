@@ -17,8 +17,6 @@
       $('body').html(new HomeView(service).render().$el);
     });
 
-    console.log('started yall');
-
     router.start();
   });
 

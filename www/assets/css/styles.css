@@ -116,9 +116,6 @@ p {
 .pull-right {
   float: right;
 }
-/*iPhone < 5:
-@media screen and (device-aspect-ratio: 2/3) {}
-*/
 
 /*iPhone 5:*/
 @media screen and (device-aspect-ratio: 40/71) {
@@ -207,38 +204,46 @@ p {
 }
 
 /*iPhone 6 Plus:*/
-@media screen and (device-aspect-ratio: 16/9) {
-.thumbnail-imageButton {
-  position: fixed;
-  bottom: 0;
-  height: 42px;
-  overflow: hidden;
-  background: transparent;
-  border: none;
-  border-radius: none;
-  margin-bottom: 20px;
-}
-.thumbnail-mapsButton {
-  position: fixed;
-  bottom: 0;
-  height: 40px;
-  overflow: hidden;
-  background: transparent;
-  border: none;
-  border-radius: none;
-  margin-bottom: 20px;
-  margin-left: 25px;
-}
-.thumbnail-infoButton {
-  position: fixed;
-  bottom: 0;
-  height: 42px;
-  overflow: hidden;
-  background: transparent;
-  border: none;
-  border-radius: none;
-  margin-bottom: 20px;
-  margin-left: 40px;
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  .thumbnail-imageButton {
+    position: fixed;
+    bottom: 0;
+    height: 42px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 10px;
+  }
+  .thumbnail-mapsButton {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 12px;
+    margin-left: 35px;
+  }
+  .thumbnail-infoButton {
+    position: fixed;
+    bottom: 0;
+    height: 42px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    border-radius: none;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  .modal-text {
+    margin-bottom: .5em;
+    margin-left: .5em;
+    margin-top: .5em;
+    margin-right: .5em;
+    font-size: 15px;
+  }
 }
 
 /*iPad:*/
@@ -273,7 +278,7 @@ p {
     border: none;
     border-radius: none;
     margin-bottom: 5px;
-    margin-left: 170px;
+    margin-left: 150px;
   }
   .modal-text {
     margin-bottom: .5em;
