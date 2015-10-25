@@ -116,9 +116,10 @@
 
   <div id="InfoModal" class="bodal">
     <div class="content">
-      <button class="ModalButton fa fa-close pull-right"></button>
+      <div class="ModalButton fa fa-close pull-right"></div>
       <p id="modal-content" class="modal-text" style="z-index: -1;"></p>
     </div>
+  </div>
   </div>
 
   <script>
@@ -132,7 +133,6 @@
         $('#ButtonOfMapsIcon').addClass("fa fa-map-pin fa-2x thumbnail-mapsButton");
         $('#ButtonOfInfoIcon').addClass("fa fa-info-circle fa-2x thumbnail-infoButton");
       }
-
     });
 
     $(".ModalButton").on("click", function() {
@@ -140,7 +140,6 @@
     });
 
     $("#ButtonOfImages").on("click", function() {
-
       var pswpElement = document.querySelectorAll('.pswp')[0];
       var service = new ApplicationService();
 

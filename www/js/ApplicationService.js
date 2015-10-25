@@ -101,137 +101,152 @@ var ApplicationService = function() {
       src: './assets/pictures/BrickLane/DSC00092.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00092 :X:  ‘Lizzy Vuitton’ - Endless- Hanbury Street '
+      title: '‘Lizzy Vuitton’ - Endless- Hanbury Street'
+    }, {
+      src: './assets/pictures/BrickLane/DSC00094.jpeg',
+      w: 1000,
+      h: 750,
+      title: 'Paul Don Smith - Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00095.jpeg',
       w: 750,
       h: 1000,
-      title: 'DSC00095 :X:  ‘Lupus Rider’ - DS - Hanbury Street'
+      title: '‘Lupus Rider’ - DS - Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00099.jpeg',
       w: 750,
       h: 1000,
-      title: 'DSC00099 :X:  Hanbury Street'
+      title: 'Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00100.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00100 :X:  Hanbury Street'
+      title: 'Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00102.jpeg',
       w: 1000,
       h: 739,
-      title: 'DSC00102'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/DSC00108.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00108 :X:  Invader - Dray Walk'
+      title: 'Invader - Dray Walk'
     }, {
       src: './assets/pictures/BrickLane/DSC001082.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC001082'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/DSC00109.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00109'
+      title: '‘Rolling Fool’ - Dr Cream - Dray Walk'
     }, {
       src: './assets/pictures/BrickLane/DSC00110.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00110 :X:  Hanbury Street'
+      title: 'Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00111.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00111 :X:  ‘Car& Winged Bomb Sculpture’ D*Face & Bow&Arrow-‘Gifts from the Olympic God’s’- Installed for London 2012 by the Mayor - Grey Eagle Street'
+      title: '‘Car& Winged Bomb Sculpture’ D*Face & Bow&Arrow-‘Gifts from the Olympic God’s’- Installed for London 2012 by the Mayor - Grey Eagle Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00113.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00113 :X:  ‘Joker&James’ - Taosuz - Hanbury Street'
+      title: '‘Joker&James’ - Taosuz - Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00115.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00115 :X:  Crisp - Hanbury Street '
+      title: 'Crisp - Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00116.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00116'
+      title: ''
+    }, {
+      src: './assets/pictures/BrickLane/DSC00118.jpeg',
+      w: 1000,
+      h: 750,
+      title: 'Yazz, Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00119.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00119 :X:  ‘Brand Wars’ - Endless - Hanbury Street'
+      title: '‘Brand Wars’ - Endless - Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00126.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00126 :X:  ‘Crunchy’ - Ronzo - Grey Eagle Street'
+      title: '‘Crunchy’ - Ronzo - Grey Eagle Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00129.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00129 :X:  Hanbury Street'
+      title: 'Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00132.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00132 :X:  ‘Lupus ‘ - DS - Hanbury Street '
+      title: '‘Lupus ‘ - DS - Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00133.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00133 :X:  ‘Love Birds’ - Paul Don Smith - Hanbury Street '
+      title: '‘Love Birds’ - Paul Don Smith - Hanbury Street'
+    }, {
+      src: './assets/pictures/BrickLane/DSC00136.jpeg',
+      w: 1000,
+      h: 750,
+      title: '‘Gifts from the Olympic God’s’- Installed for London 2012 by the Mayor'
     }, {
       src: './assets/pictures/BrickLane/DSC00137.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00137 :X:  ‘Guy Fawkes’ - Gee - Hanbury Street'
+      title: '‘Guy Fawkes’ - Gee - Hanbury Street'
     }, {
       src: './assets/pictures/BrickLane/DSC00173.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00173'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/DSC00198.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00198'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/DSC00227.jpeg',
       w: 1000,
       h: 667,
-      title: 'DSC00227'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/IMG_1603.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_1603'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/Urban-26.jpeg',
       w: 1000,
       h: 739,
-      title: 'Urban-26'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/Urban-35.jpeg',
       w: 1000,
       h: 667,
-      title: 'Urban-35'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/Urban-41.jpeg',
       w: 1000,
       h: 739,
-      title: 'Urban-41'
+      title: ''
     }, {
       src: './assets/pictures/BrickLane/Urban-84.jpeg',
       w: 517,
       h: 700,
-      title: 'Urban-84'
+      title: ''
     }]
   }, {
     id: 'Camden',
@@ -240,132 +255,137 @@ var ApplicationService = function() {
       src: './assets/pictures/Camden/DSC00134.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00134'
+      title: ''
+    }, {
+      src: './assets/pictures/Camden/DSC00153.jpeg',
+      w: 1000,
+      h: 750,
+      title: '‘John Lennon Mural’- Gnasher - Camden High Street'
     }, {
       src: './assets/pictures/Camden/DSC00160.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00160 :X:  JXC- Hawley Mews'
+      title: 'JXC- Hawley Mews'
     }, {
       src: './assets/pictures/Camden/DSC00161.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00161 :X:  ‘Original Riots’- Airborne Mark - Hawley Mews'
+      title: '‘Original Riots’- Airborne Mark - Hawley Mews'
     }, {
       src: './assets/pictures/Camden/DSC00163.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00163 :X:  Zabou- Hawley Mews'
+      title: 'Zabou- Hawley Mews'
     }, {
       src: './assets/pictures/Camden/DSC00165.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00165 :X:  Sr.X- Hawley Mews'
+      title: 'Sr.X- Hawley Mews'
     }, {
       src: './assets/pictures/Camden/DSC00166.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00166 :X:  China Girl - Hawley Mews'
+      title: 'China Girl - Hawley Mews'
     }, {
       src: './assets/pictures/Camden/DSC00169.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00169'
+      title: ''
     }, {
       src: './assets/pictures/Camden/DSC00284.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00284 :X:  My Dog Sighs - Stucley Place'
+      title: 'My Dog Sighs - Stucley Place'
     }, {
       src: './assets/pictures/Camden/DSC00288.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00288 :X:  My Dog Sighs - Stucley Place'
+      title: 'My Dog Sighs - Stucley Place'
     }, {
       src: './assets/pictures/Camden/DSC00293.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00293 :X:  Shop Fronts- Camden High Street'
+      title: 'Shop Fronts- Camden High Street'
     }, {
       src: './assets/pictures/Camden/DSC00298.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00298 :X:  ‘John Lennon Mural’- Gnasher - Camden High Street'
+      title: '‘John Lennon Mural’- Gnasher - Camden High Street'
     }, {
       src: './assets/pictures/Camden/DSC00300.jpeg',
       w: 750,
       h: 1000,
-      title: 'DSC00300 :X:  Camden High Street'
+      title: 'Camden High Street'
     }, {
       src: './assets/pictures/Camden/DSC00301.jpeg',
       w: 616,
       h: 742,
-      title: 'DSC00301'
+      title: 'Camden High Street'
     }, {
       src: './assets/pictures/Camden/DSC00307.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00307 :X:  Camden Lock '
+      title: 'Camden Lock'
     }, {
       src: './assets/pictures/Camden/DSC00309.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00309'
+      title: ''
     }, {
       src: './assets/pictures/Camden/DSC00313.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00313 :X:  ‘Rhino Zero’- Otto Schade- Hawley Street'
+      title: '‘Rhino Zero’- Otto Schade- Hawley Street'
     }, {
       src: './assets/pictures/Camden/DSC00314.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00314 :X:  ‘Last Trip to Wonderland’- Trip. iCON- Hawley Street'
+      title: '‘Last Trip to Wonderland’- Trip. iCON- Hawley Street'
     }, {
       src: './assets/pictures/Camden/DSC00315.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00315 :X:  Camden Lock'
+      title: 'Camden Lock'
     }, {
       src: './assets/pictures/Camden/DSC00317.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00317'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Camden/DSC00325.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00325 :X:  ‘Amy Whinehouse’- Otto Schade- Hawley Street '
+      title: '‘Amy Whinehouse’- Otto Schade- Hawley Street'
     }, {
       src: './assets/pictures/Camden/DSC00326.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00326 :X:  Zadok and Dotmasters- Hawley Mews'
+      title: 'Zadok and Dotmasters- Hawley Mews'
     }, {
       src: './assets/pictures/Camden/DSC00336.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00336'
+      title: ''
     }, {
       src: './assets/pictures/Camden/DSC00337.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00337 :X:  ’Tribute to the muppets’  Gnasher- Hawley Mews'
+      title: '’Tribute to the muppets’  Gnasher- Hawley Mews'
     }, {
       src: './assets/pictures/Camden/DSC00345.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00345'
+      title: ''
     }, {
       src: './assets/pictures/Camden/DSC00346.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00346 :X:  Simoni Fontana- Hartland Road'
+      title: 'Simoni Fontana- Hartland Road'
     }, {
       src: './assets/pictures/Camden/DSC00358.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00358 :X:  ‘Amy Whinehouse’-Pegasus- Camden High Street'
+      title: '‘Amy Whinehouse’-Pegasus- Camden High Street'
     }]
   }, {
     id: 'Portobello',
@@ -374,107 +394,107 @@ var ApplicationService = function() {
       src: './assets/pictures/Portobello/DSC00405.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00405 :X:  ‘Made you look’- Banksy- Portobello Road'
+      title: '‘Made you look’- Banksy- Portobello Road'
     }, {
       src: './assets/pictures/Portobello/DSC00406.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00406'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00417.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00417'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00425.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00425'
+      title: 'Portobello Road'
     }, {
       src: './assets/pictures/Portobello/DSC00428.jpeg',
       w: 1000,
       h: 1333,
-      title: 'DSC00428'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00438.jpeg',
       w: 750,
       h: 1000,
-      title: 'DSC00438'
+      title: 'Portobello Road'
     }, {
       src: './assets/pictures/Portobello/DSC00475.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00475'
+      title: 'Acklam Village- Portobello Road'
     }, {
       src: './assets/pictures/Portobello/DSC00485.jpeg',
       w: 1000,
       h: 1333,
-      title: 'DSC00485'
+      title: 'Pure Evil- Acklam Village'
     }, {
       src: './assets/pictures/Portobello/DSC00496.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00496'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00498.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00498'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00499.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00499'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00505.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00505'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00508.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00508 :X:  Stik- Acklam Village'
+      title: 'Stik - Acklam Village'
     }, {
       src: './assets/pictures/Portobello/DSC00509.jpeg',
       w: 750,
       h: 1000,
-      title: 'DSC00509 :X:  Stik- Acklam Village'
+      title: 'Stik- Acklam Village'
     }, {
       src: './assets/pictures/Portobello/DSC00511.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00511'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00514.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00514'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00515.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00515'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/DSC00516.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00516'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/IMG_1412.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_1412'
+      title: ''
     }, {
       src: './assets/pictures/Portobello/IMG_1418.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_1418 :X:  Graffik Gallery '
+      title: 'Graffik Gallery'
     }, {
       src: './assets/pictures/Portobello/IMG_1420.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_1420'
+      title: 'Various including mural from Jay Kaes,Portobello Road'
     }]
   }, {
     id: 'Waterloo',
@@ -483,152 +503,152 @@ var ApplicationService = function() {
       src: './assets/pictures/Waterloo/DSC00176.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00176'
+      title: 'Smot - Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/DSC00302.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00302 :X: Check out the Graffiti tunnel under Waterloo for some amazing graffiti! I like the combination of background and lettering here, especially the way all the letters are connected.'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC00312.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00312'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC00317.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00317'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC00319.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00319 :X: Graffiti is arguably the most well known expression of street art, and a lot of street artists start out here.'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC00350.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00350'
+      title: '‘Letgo’ Pad - Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC00381.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00381'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC00385.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00385'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC00393.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00393'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC00394.jpeg',
       w: 1000,
       h: 750,
-      title: 'DSC00394'
+      title: 'Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC_0373.jpeg',
       w: 1000,
       h: 755,
-      title: 'DSC_0373'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/DSC_0377.jpeg',
       w: 1000,
       h: 950,
-      title: 'DSC_0377'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/DSC_0388.jpeg',
       w: 1000,
       h: 602,
-      title: 'DSC_0388'
+      title: 'From Femme Fierce Takeover- Leake Street tunnels'
     }, {
       src: './assets/pictures/Waterloo/DSC_0394.jpeg',
       w: 1000,
       h: 654,
-      title: 'DSC_0394'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/DSC_0401.jpeg',
       w: 1000,
       h: 834,
-      title: 'DSC_0401'
+      title: 'Southbank'
     }, {
       src: './assets/pictures/Waterloo/DSC_0407.jpeg',
       w: 1000,
       h: 920,
-      title: 'DSC_0407'
+      title: 'Remed & Saner - Southbank'
     }, {
       src: './assets/pictures/Waterloo/DSC_0408.jpeg',
       w: 1000,
       h: 450,
-      title: 'DSC_0408'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0134.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0134'
+      title: 'Ben Wilson - Millenium Bridge'
     }, {
       src: './assets/pictures/Waterloo/IMG_0882.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0882'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0883.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0883'
+      title: 'Bustart- Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0884.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0884'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0885.jpeg',
       w: 1000,
       h: 1500,
-      title: 'IMG_0885'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0886.jpeg',
       w: 1000,
       h: 1500,
-      title: 'IMG_0886'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0887.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0887'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0895.jpeg',
       w: 1000,
       h: 1500,
-      title: 'IMG_0895'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0898.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0898'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0899.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0899'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0926.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0926'
+      title: 'Southbank Skate park'
     }, {
       src: './assets/pictures/Waterloo/IMG_0937.jpeg',
       w: 1000,
       h: 667,
-      title: 'IMG_0937'
+      title: 'Southbank Skate park'
     }, {
-      src: './assets/pictures/Waterloo/leakeyooct13.jpeg',
+      src: './assets/pictures/Waterloo/leakey.jpeg',
       w: 1000,
       h: 708,
-      title: 'leakeyooct13'
+      title: 'Leake Street tunnels'
     }]
   }, {
     id: 'Shoreditch',
@@ -637,202 +657,203 @@ var ApplicationService = function() {
       src: './assets/pictures/Shoreditch/DSC00010.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00010 :X:  ’The Cycle of Futility’- INSA- Redchurch Street '
+      title: '’The Cycle of Futility’- INSA- Redchurch Street'
     }, {
       src: './assets/pictures/Shoreditch/DSC00013.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00013'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00015.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00015'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00020.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00020'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00029.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00029 :X:  ‘Mushroom’ Christiaan Nagel'
+      title: '‘Mushroom’ Christiaan Nagel'
     }, {
       src: './assets/pictures/Shoreditch/DSC00030.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00030'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00033.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00033 :X:  Jimmy C- Whitby Street '
+      title: 'Lounge Lover- Whitby Street'
     }, {
       src: './assets/pictures/Shoreditch/DSC00036.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00036'
+      title: '‘Toddler with Phone’ Clolus- Whitby Street'
     }, {
       src: './assets/pictures/Shoreditch/DSC00047.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00047'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00057.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00057'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00061.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00061 :X:  ’Scary’- Ben Eine- Rivington Street'
+      title: '’Scary’- Ben Eine- Rivington Street'
     }, {
       src: './assets/pictures/Shoreditch/DSC00062.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00062'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00063.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00063 :X:  ‘Don’t shoot’- Bambi- Irvington Street'
+      title: '‘Don’t shoot’- Bambi- Irvington Street'
     }, {
       src: './assets/pictures/Shoreditch/DSC00066.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00066'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC000681.jpeg',
       w: 1000,
       h: 572,
-      title: 'DSC000681'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC000682.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC000682'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00071.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00071'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00073.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00073'
+      title: 'Stik - Bash Street'
     }, {
       src: './assets/pictures/Shoreditch/DSC00074.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00074'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00075.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00075'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00080.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00080'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00083.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00083'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00087.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00087'
+      title: '‘You call it God…’ Meme'
     }, {
       src: './assets/pictures/Shoreditch/DSC00108.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00108 :X:  Invader - Dray Walk'
+      title: 'Invader - Dray Walk'
     }, {
       src: './assets/pictures/Shoreditch/DSC00268.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00268 :X: Spotted in Shoreditch! A great example showing how graffiti artists reinvent letters.'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00555.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00555'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00557.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00557 :X:  ‘Shoplifters Welcome’ Shepard Fairey- Ebor Street'
+      title: '‘Shoplifters Welcome’ Shepard Fairey- Ebor Street'
     }, {
       src: './assets/pictures/Shoreditch/DSC00558.jpeg',
       w: 480,
       h: 640,
-      title: 'DSC00558'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00560.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00560'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00561.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00561 :X:  James Bullough- Club Row'
+      title: 'James Bullough - Club Row'
     }, {
       src: './assets/pictures/Shoreditch/DSC00565.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00565'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00566.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00566'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00567.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00567'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00568.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00568'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00579.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00579'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00581.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00581'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/DSC00582.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00582 :X:  Roa'
+      title: 'Roa and Phlegm, Old Street'
     }, {
       src: './assets/pictures/Shoreditch/DSC00587.jpeg',
       w: 640,
       h: 480,
-      title: 'DSC00587'
+      title: '‘Sexy Girl’ Otto Schade - Corner of Pitfield & Old Street'
     }, {
       src: './assets/pictures/Shoreditch/east.june2015.jpeg',
       w: 1000,
       h: 750,
-      title: 'east.june2015'
+      title: ''
     }, {
       src: './assets/pictures/Shoreditch/IMG_1459.jpeg',
       w: 640,
       h: 427,
-      title: 'IMG_1459'
+      title: ''
     }]
   }];
+
 }
