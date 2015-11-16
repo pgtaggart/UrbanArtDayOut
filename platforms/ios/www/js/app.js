@@ -17,21 +17,16 @@
       $('body').html(new HomeView(service).render().$el);
     });
 
-    console.log('started yall');
-
     router.start();
   });
 
   /* --------------------------------- Event Registration -------------------------------- */
-
   document.addEventListener('deviceready', function() {
 
     StatusBar.overlaysWebView(false);
-    StatusBar.backgroundColorByHexString('#00000'); //XXX: This will need to change
+    StatusBar.backgroundColorByHexString('#00000');
     StatusBar.styleDefault();
-
     FastClick.attach(document.body);
-
     handleExternalURLs();
 
   }, false);
@@ -69,6 +64,8 @@
       } else {
         document.getElementById("modal-content").innerHTML = service.getInfo(pageName);
         $("#ButtonsDiv").fadeIn(200);
+        var location = service.getLocation(pageName);
+        $("#ButtonOfMaps").attr('href', "maps://?q=" + location[0] + "," + location[1]);
       }
     },
 
@@ -78,7 +75,6 @@
   });
 
   function handleExternalURLs() {
-
     // Handle click events for all external URLs
     if (device.platform.toUpperCase() === 'ANDROID') {
       $(document).on('click', 'a[href^="http"]', function(e) {

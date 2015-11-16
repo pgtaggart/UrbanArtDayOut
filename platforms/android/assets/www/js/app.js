@@ -21,16 +21,12 @@
   });
 
   /* --------------------------------- Event Registration -------------------------------- */
-
   document.addEventListener('deviceready', function() {
 
     StatusBar.overlaysWebView(false);
-    StatusBar.backgroundColorByHexString('#00000'); //XXX: This will need to change
+    StatusBar.backgroundColorByHexString('#00000');
     StatusBar.styleDefault();
-
     FastClick.attach(document.body);
-
-    handleExternalURLs();
 
   }, false);
 
@@ -67,6 +63,13 @@
       } else {
         document.getElementById("modal-content").innerHTML = service.getInfo(pageName);
         $("#ButtonsDiv").fadeIn(200);
+        var location = service.getLocation(pageName);
+        if (navigator.userAgent.match(/android/i) != null) {
+          $("#ButtonOfMaps").attr('href', 'geo:0,0?q=' + location[0] + ',' + location[1] + '(' + pageName + ')');
+        } else {
+          $("#ButtonOfMaps").attr('href', "maps://?q=" + location[0] + "," + location[1]);
+        }
+
       }
     },
 
@@ -74,27 +77,5 @@
       $("#mainslider").css("visibility", "visible");
     }
   });
-
-  function handleExternalURLs() {
-
-    // Handle click events for all external URLs
-    if (device.platform.toUpperCase() === 'ANDROID') {
-      $(document).on('click', 'a[href^="http"]', function(e) {
-        var url = $(this).attr('href');
-        navigator.app.loadUrl(url, {
-          openExternal: true
-        });
-        e.preventDefault();
-      });
-    } else if (device.platform.toUpperCase() === 'IOS') {
-      $(document).on('click', 'a[href^="http"]', function(e) {
-        var url = $(this).attr('href');
-        window.open(url, '_system');
-        e.preventDefault();
-      });
-    } else {
-      // Leave standard behaviour
-    }
-  }
 
 }());

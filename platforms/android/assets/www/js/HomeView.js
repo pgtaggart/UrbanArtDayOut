@@ -1,9 +1,5 @@
 var HomeView = function() {
 
-  <li class="dragend-page" name="welcomePage" style="background-image: url('assets/pictures/Welcome.jpg');"></li>
-  <li class="dragend-page" name="stylePage" style="background-image: url('assets/pictures/Style.jpg');"></li>
-
-
   var pages = [{
     id: "welcomePage",
     image: "Welcome.jpg",
@@ -18,34 +14,48 @@ var HomeView = function() {
     longitude: "0"
   }, {
     id: "BrickLane",
-    image: "BrickLane.jpg",
-    location: "Brick Lane",
-    latitude: "51.523951",
-    longitude: "-0.071509"
+    image: "BrickLane.jpg"
   }, {
     id: "Camden",
-    image: "Camden.jpg",
-    location: "Camden",
-    latitude: "51.541922",
-    longitude: "-0.139424"
+    image: "Camden.jpg"
   }, {
     id: "Portobello",
-    image: "Portobello.jpg",
-    location: "Portobello",
-    latitude: "51.518429",
-    longitude: "-0.206360"
+    image: "Portobello.jpg"
   }, {
     id: "Waterloo",
-    image: "Waterloo.jpg",
-    location: "Waterloo",
-    latitude: "51.502445",
-    longitude: "-0.113520"
+    image: "Waterloo.jpg"
   }, {
     id: "Shoreditch",
-    image: "Shoreditch.jpg",
-    location: "Shoreditch",
-    latitude: "51.523274",
-    longitude: "-0.074916"
+    image: "Shoreditch.jpg"
+  }];
+
+  var iPadPages = [{
+    id: "welcomePage",
+    image: "iPad/Welcome.jpg",
+    location: "",
+    latitude: "0",
+    longitude: "0"
+  }, {
+    id: "stylePage",
+    image: "iPad/Style.jpg",
+    location: "",
+    latitude: "0",
+    longitude: "0"
+  }, {
+    id: "BrickLane",
+    image: "iPad/BrickLane.jpg"
+  }, {
+    id: "Camden",
+    image: "iPad/Camden.jpg"
+  }, {
+    id: "Portobello",
+    image: "iPad/Portobello.jpg"
+  }, {
+    id: "Waterloo",
+    image: "iPad/Waterloo.jpg"
+  }, {
+    id: "Shoreditch",
+    image: "iPad/Shoreditch.jpg"
   }];
 
   this.initialize = function() {
@@ -54,9 +64,14 @@ var HomeView = function() {
   };
 
   this.render = function() {
-    this.$el.html(this.template(pages));
+    if (navigator.userAgent.match(/iPad/i) != null) {
+      this.$el.html(this.template(iPadPages));
+    } else {
+      this.$el.html(this.template(pages));
+    }
     return this;
   };
 
   this.initialize();
+
 }

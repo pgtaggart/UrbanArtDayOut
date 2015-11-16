@@ -17,7 +17,7 @@
     <div id="mainslider">
       <ul>
         {{#each this}}
-        <li class="dragend-page" name="{{id}}" style="background-image: url('assets/pictures/{{image}}');"></li>
+          <li class="dragend-page" name="{{id}}" style="background-image: url('assets/pictures/{{image}}');"></li>
         {{/each}}
       </ul>
     </div>
@@ -124,6 +124,8 @@
 
   <script>
     $(document).ready(function() {
+
+      //set button sizes for iPad
       if (navigator.userAgent.match(/iPad/i) != null) {
         $('#ButtonOfImagesIcon').addClass("fa fa-camera-retro fa-4x thumbnail-imageButton");
         $('#ButtonOfMapsIcon').addClass("fa fa-map-pin fa-4x thumbnail-mapsButton");
@@ -133,10 +135,37 @@
         $('#ButtonOfMapsIcon').addClass("fa fa-map-pin fa-2x thumbnail-mapsButton");
         $('#ButtonOfInfoIcon').addClass("fa fa-info-circle fa-2x thumbnail-infoButton");
       }
+
+      //set button locations for ANDROID
+      if (navigator.userAgent.match(/android/i) != null) {
+
+          // buttons are 40px high
+          // original image is 1600px high
+          // pages are set to 98% height
+          // border starts at 34 from bottom
+          var blankPixelsAtBottom = Math.round((1600 - (1600.0 * 0.98)) / window.devicePixelRatio) + 1;
+          var newHeightRatio =  1 / 1600 * $(window).height();
+          var buttonStartFromBottom = Math.round(34 * newHeightRatio) + blankPixelsAtBottom;
+
+          $(".thumbnail-imageButton").css("position", "fixed");
+          $(".thumbnail-imageButton").css("bottom", buttonStartFromBottom);
+
+          $(".thumbnail-mapsButton").css("position", "fixed");
+          $(".thumbnail-mapsButton").css("bottom", buttonStartFromBottom);
+          $(".thumbnail-mapsButton").css("margin-left", "35px");
+
+          $(".thumbnail-infoButton").css("position", "fixed");
+          $(".thumbnail-infoButton").css("bottom", buttonStartFromBottom);
+          $(".thumbnail-infoButton").css("margin-left", "50px");
+      }
     });
 
     $(".ModalButton").on("click", function() {
       $("#InfoModal").toggleClass("active");
+    });
+
+    $("#ButtonOfMaps").on("click", function() {
+      window.open($(this).attr("href"), '_system');
     });
 
     $("#ButtonOfImages").on("click", function() {

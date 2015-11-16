@@ -9,13 +9,11 @@
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/css/styles.css" rel="stylesheet">
-
 </head>
 
 <body>
 
   <script id="home-template" type="text/template">
-
     <div id="mainslider">
       <ul>
         {{#each this}}
@@ -44,24 +42,23 @@
     <div class="row">
       <div class="col-xs-4">
         <div id="ButtonOfImages" class="ImageButton" data-id="start">
-          <i class="fa fa-camera-retro fa-2x thumbnail-imageButton"></i>
+          <i id="ButtonOfImagesIcon"></i>
         </div>
       </div>
       <div class="col-xs-4">
         <div class="MapsButton">
-          <a href="maps://?q={{latitude}},{{longitude}}">
-            <i class="fa fa-map-pin fa-2x thumbnail-mapsButton"></i>
+          <a id="ButtonOfMaps" href="maps://?q={{latitude}},{{longitude}}">
+            <i id="ButtonOfMapsIcon"></i>
           </a>
         </div>
       </div>
       <div class="col-xs-4">
         <div id="ButtonOfInfo" class="ModalButton">
-          <i class="fa fa-info-circle fa-2x thumbnail-infoButton"></i>
+          <i id="ButtonOfInfoIcon"></i>
         </div>
       </div>
     </div>
   </div>
-
 
   <!-- Root element of PhotoSwipe. Must have class pswp. -->
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -119,18 +116,55 @@
 
   <div id="InfoModal" class="bodal">
     <div class="content">
-      <button class="ModalButton fa fa-close pull-right"></button>
+      <div class="ModalButton fa fa-close pull-right"></div>
       <p id="modal-content" class="modal-text" style="z-index: -1;"></p>
     </div>
   </div>
+  </div>
 
   <script>
+    $(document).ready(function() {
+
+      //set button sizes for iPad
+      if (navigator.userAgent.match(/iPad/i) != null) {
+        $('#ButtonOfImagesIcon').addClass("fa fa-camera-retro fa-4x thumbnail-imageButton");
+        $('#ButtonOfMapsIcon').addClass("fa fa-map-pin fa-4x thumbnail-mapsButton");
+        $('#ButtonOfInfoIcon').addClass("fa fa-info-circle fa-4x thumbnail-infoButton");
+      } else {
+        $('#ButtonOfImagesIcon').addClass("fa fa-camera-retro fa-2x thumbnail-imageButton");
+        $('#ButtonOfMapsIcon').addClass("fa fa-map-pin fa-2x thumbnail-mapsButton");
+        $('#ButtonOfInfoIcon').addClass("fa fa-info-circle fa-2x thumbnail-infoButton");
+      }
+
+      //set button locations for ANDROID
+      if (navigator.userAgent.match(/android/i) != null) {
+
+          // buttons are 40px high
+          // original image is 1600px high
+          // pages are set to 98% height
+          // border starts at 34 from bottom
+          var blankPixelsAtBottom = Math.round((1600 - (1600.0 * 0.98)) / window.devicePixelRatio) + 1;
+          var newHeightRatio =  1 / 1600 * $(window).height();
+          var buttonStartFromBottom = Math.round(34 * newHeightRatio) + blankPixelsAtBottom;
+
+          $(".thumbnail-imageButton").css("position", "fixed");
+          $(".thumbnail-imageButton").css("bottom", buttonStartFromBottom);
+
+          $(".thumbnail-mapsButton").css("position", "fixed");
+          $(".thumbnail-mapsButton").css("bottom", buttonStartFromBottom);
+          $(".thumbnail-mapsButton").css("margin-left", "35px");
+
+          $(".thumbnail-infoButton").css("position", "fixed");
+          $(".thumbnail-infoButton").css("bottom", buttonStartFromBottom);
+          $(".thumbnail-infoButton").css("margin-left", "50px");
+      }
+    });
+
     $(".ModalButton").on("click", function() {
       $("#InfoModal").toggleClass("active");
     });
 
     $("#ButtonOfImages").on("click", function() {
-
       var pswpElement = document.querySelectorAll('.pswp')[0];
       var service = new ApplicationService();
 
